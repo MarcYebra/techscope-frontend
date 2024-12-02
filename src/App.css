@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+.landing-letters {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: rgba(255, 255, 255, 0.842);
+
+}
+
+.landing-letters h1 {
+  font-size: 4rem;
+  letter-spacing: 1rem;
+}
+
+.landing-letters h2 {
+  font-size: 1rem;
+  letter-spacing: .6rem;
+}
+
+.landing-cat {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+  color: rgba(255, 255, 255, 0.918);
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+}
+
+.home-background {
+  background-color: black;
+  border-bottom: 0.5px solid white;
+}
+
+.home-title {
+  text-align: center;
+  color: white;
+  border-bottom: 0.5px solid white;
+  padding-bottom: 10px;
+}
+.home-cat {
+  text-align: center;
+}
+.home-cat li{
+  display: inline;
+  padding-left:18px;
+  padding-right: 18px;
+  color: white;
+}
+
+.footer-color {
+  color: white;
+}
+
+.explore-button {
+  display: inline-block;
+  margin-top: 5px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  background-color: #cad5e4;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.explore-button:hover {
+  background-color: #101827;
+  color: rgb(255, 255, 255);
+  transform: scale(1.05);
+}
+
+.explore-button:active {
+  background-color: #001225;
+  transform: scale(0.98);
+}
