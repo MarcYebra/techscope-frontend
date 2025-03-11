@@ -117,13 +117,6 @@ const ThreeModel = () => {
         <h2>YOUR SOURCE FOR TECHNOLOGY INSIGHTS AND NEWS</h2>
         <Link to="/home" className="explore-button">Explore Now</Link>
       </div>
-      <div className="landing-cat">
-        <span>ETHICS</span>
-        <span>SOCIETY</span>
-        <span>POLITICS</span>
-        <span>GLOBAL</span>
-        <span>INNOVATION</span>
-      </div>
     </div>
   );
 };

@@ -1,36 +1,31 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import Footer from './Footer.js';
 
 const Home = (props) => {
   
 
   return (
     <div>
-      <div className='home-background'>
+      <div>
         <h1 className='home-title'>
           <Link to='/'>Tech Scope</Link>
         </h1>
         <div className='div-white-line'></div>
           <ul className='home-cat'>
             <li>
-              <Link to='/ethics'>Ethics</Link>
+              <Link to='/ethics'>History</Link>
             </li>
             <li>
-              <Link to='/society'>Society</Link>
+              <Link to='/society'>Modern</Link>
             </li>
             <li>
-              <Link to='/politics'>Politics</Link>
+              <Link to='/politics'>Future</Link>
             </li>
             <li>
-              <Link to='/global'>Global</Link></li>
-            <li>
-              <Link to='/innovation'>Innovation</Link>
-            </li>
+              <Link to='/global'>Ethics</Link></li>
           </ul>
         <div className='div-white-line'></div>
       </div>
-      <Footer/>
     </div>
   );
 };
